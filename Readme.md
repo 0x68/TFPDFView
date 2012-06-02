@@ -5,4 +5,4 @@
 - Feel free to contribute and improve this Project
 
 
-# In PDFViewControlle.j you should fix the path to the PDF File, will be fixed in next releases. 
+- In PDFViewController.j you should fix the path to the PDF File, will be fixed in next releases. 
