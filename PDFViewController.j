@@ -24,10 +24,8 @@
         pdfView = [[TFPDFView alloc] initWithFrame:CPRectMake(150, 200, 1024.0, 560.0)];
         [self addSubview:pdfView];
     }
-
     return self;
 }
-
 
 - (void)loadData:(id)sender{
     var myURL = [[CPBundle mainBundle] pathForResource:"pdfjs/examples/helloworld/helloworld.pdf"];
