@@ -1,0 +1,15 @@
+* {
+  padding-top: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #ccc;
+  background-image: url(images/texture.png);
+  font-family: Segoe UI, Verdana, sans-serif;
+}
