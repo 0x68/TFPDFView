@@ -34,7 +34,8 @@
 }
 
 - (void)loadData:(id)sender{
-    var url = [[CPURL alloc] initWithString:@"file:///Users/tfcoding/Development/Workspace/Cappuccino/TFPDFView/Resources/pdfjs/examples/helloworld/helloworld.pdf"];
+    var myURL = [[CPBundle mainBundle] pathForResource:"pdfjs/examples/helloworld/helloworld.pdf"];
+    var url = [[CPURL alloc] initWithString:myURL];
     [pdfView loadPDFFromURL:url startPage:2];
 }
 
