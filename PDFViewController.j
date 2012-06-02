@@ -28,10 +28,6 @@
     return self;
 }
 
-- (void)showWindow:(id)sender{
-    [[self window] orderFront:sender];
-    [aView addSubview:pdfView];
-}
 
 - (void)loadData:(id)sender{
     var myURL = [[CPBundle mainBundle] pathForResource:"pdfjs/examples/helloworld/helloworld.pdf"];
