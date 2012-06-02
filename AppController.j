@@ -19,7 +19,7 @@
      var theWindow = [[CPWindow alloc] initWithContentRect:CGRectMakeZero() styleMask:CPBorderlessBridgeWindowMask],
         contentView = [theWindow contentView];
 
-    pdfViewController = [[PDFViewController alloc] initWithFrame:CGRectMake(250, 250, 800, 1024)];
+    pdfViewController = [[PDFViewController alloc] initWithFrame:CGRectMake(150.0, 0.0, CGRectGetWidth([contentView bounds]) - 150.0, CGRectGetHeight([contentView bounds]))];
     [contentView addSubview:pdfViewController];
 
     [theWindow orderFront:self];

@@ -18,7 +18,7 @@
     if(self){
 
 
-        pdfView = [[TFPDFView alloc] initWithFrame:CPRectMake(10, 50, 610.0, 385.0)];
+        pdfView = [[TFPDFView alloc] initWithFrame:CPRectMake(150, 200, 1024.0, 560.0)];
         [self addSubview:pdfView];
     }
 
