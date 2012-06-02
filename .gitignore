@@ -1,2 +1,4 @@
 Frameworks/*
 .xCodeSupport
+Build/*
+.DS_Store
