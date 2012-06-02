@@ -16,7 +16,7 @@
     self = [super initWithFrame:aFrame];
     if(self){
 
-        button = [[CPButton alloc] initWithFrame:CPRectMake(20, 200, 70.0, 28.0)];
+        button = [[CPButton alloc] initWithFrame:CGRectMake(20, 200, 70.0, 24.0)];
         [button setTitle:@"PressMe"];
         [button setTarget:self];
         [button setAction:@selector(loadData:)];
