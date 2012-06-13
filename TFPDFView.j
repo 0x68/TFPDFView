@@ -17,7 +17,7 @@
     {
       	[self setAutoresizingMask:CPViewWidthSizable | CPViewHeightSizable];
       	[self setBackgroundColor:[CPColor grayColor]];
-		[self setScrollMode:CPWebViewScrollNative];
+		[self setScrollMode:CPWebViewScrollAppKit];
 
       	//load the viewer.html file which contains a link to the viewer.js file
 		var myURL = [[CPBundle mainBundle] pathForResource:"pdfFrame/viewer.html"];
